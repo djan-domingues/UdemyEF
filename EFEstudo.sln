@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EFEstudo", "EFEstudo\EFEstudo.csproj", "{E1FE15F5-8385-4D96-B6B5-38ACEC1F7247}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "modelo", "modelo\modelo.csproj", "{3A38EBA4-6676-4EFE-88A6-5995E855EB1A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dal.mysql", "dal.mysql\dal.mysql.csproj", "{5D9A0D12-18D9-4602-A709-59931478CEE7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dal.sql", "dal.sql\dal.sql.csproj", "{266BECE3-16FF-4874-A9C3-E1BF19F759DD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "camada1", "camada1", "{EC6F408D-E407-47A5-AFCF-C77518269BB1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "camada2", "camada2", "{0C7DF7EB-D9C4-4AF6-83D4-3712C7342B25}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "camada3", "camada3", "{01FA6558-BD2B-4DFE-94F2-ED448472E3B5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E1FE15F5-8385-4D96-B6B5-38ACEC1F7247}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1FE15F5-8385-4D96-B6B5-38ACEC1F7247}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1FE15F5-8385-4D96-B6B5-38ACEC1F7247}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1FE15F5-8385-4D96-B6B5-38ACEC1F7247}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A38EBA4-6676-4EFE-88A6-5995E855EB1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A38EBA4-6676-4EFE-88A6-5995E855EB1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A38EBA4-6676-4EFE-88A6-5995E855EB1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A38EBA4-6676-4EFE-88A6-5995E855EB1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D9A0D12-18D9-4602-A709-59931478CEE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D9A0D12-18D9-4602-A709-59931478CEE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D9A0D12-18D9-4602-A709-59931478CEE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D9A0D12-18D9-4602-A709-59931478CEE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{266BECE3-16FF-4874-A9C3-E1BF19F759DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{266BECE3-16FF-4874-A9C3-E1BF19F759DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{266BECE3-16FF-4874-A9C3-E1BF19F759DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{266BECE3-16FF-4874-A9C3-E1BF19F759DD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E1FE15F5-8385-4D96-B6B5-38ACEC1F7247} = {EC6F408D-E407-47A5-AFCF-C77518269BB1}
+		{3A38EBA4-6676-4EFE-88A6-5995E855EB1A} = {01FA6558-BD2B-4DFE-94F2-ED448472E3B5}
+		{5D9A0D12-18D9-4602-A709-59931478CEE7} = {0C7DF7EB-D9C4-4AF6-83D4-3712C7342B25}
+		{266BECE3-16FF-4874-A9C3-E1BF19F759DD} = {0C7DF7EB-D9C4-4AF6-83D4-3712C7342B25}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9FD815AC-9B9C-4B58-9F00-A66B3C3A22B5}
+	EndGlobalSection
+EndGlobal
